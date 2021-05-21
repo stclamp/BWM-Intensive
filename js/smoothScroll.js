@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const smoothScrollElems = document.querySelectorAll('a[href^="#"]:not(a[href="#"])');
+    
 
+    const smoothScrollElems = document.querySelectorAll('a[href^="#"]:not(a[href="#"])');
     smoothScrollElems.forEach(link => {
         link.addEventListener('click', (event) => {
 
